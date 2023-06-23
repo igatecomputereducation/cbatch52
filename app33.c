@@ -8,12 +8,10 @@ int main()
 	printf("Quantity:");
 	scanf("%i",&qty);
 	bill=price*qty;
-	
 	if(bill>10000)
 		dis=bill*5/100;
 	if(bill<=10000)	
 		dis=bill*3/100;
-	
 	nbill=bill-dis;
 	printf("\n-----------------------\n");
 	printf("Bill %.2f\n",bill);
