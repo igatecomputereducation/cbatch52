@@ -17,3 +17,7 @@ int main()
 		printf("Not an armstrong number");
 	return 0;
 }
+
+
+
+
