@@ -1,13 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	if(10>30)
-		printf("one\n");
-	printf("two\n");
-	if(40<=50)
-		printf("three\n");
-	if(60<=30)
-		printf("four\n");
-	printf("igate");
+	int a,b,c;
+	a=10>=10 && 40>=80 || 40>=80;
+	b=40!=80 && 50<=20 && 60>20; 
+	c=50!=70 || 20>50 && 50>30;
+	printf("%i\n%i\n%i",a,b,c);
 	return 0;
 }
