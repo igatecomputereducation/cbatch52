@@ -3,11 +3,11 @@ int main()
 {
 	int x;
 	
-	x=1;
+	x=10;
 	abc:
 		printf("%i\n",x);
-		x=x+1;
-	if(x<=15)
+		x=x-1;
+	if(x>=1)
 		goto abc;
 	
 	return 0;

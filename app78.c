@@ -3,7 +3,7 @@ int main()
 {
 	int x;
 	
-	x=1;
+	x=5;
 	abc:
 		printf("%i\n",x);
 		x=x+1;
